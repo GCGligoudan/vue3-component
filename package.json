@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "pnpm -C play dev",
+    "doc:dev": "pnpm -C docs dev",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -17,5 +18,12 @@
     "@zi-shui/utils": "workspace:^",
     "typescript": "^5.6.3",
     "vue": "^3.5.12"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.16.0",
+    "eslint": "^9.16.0",
+    "eslint-plugin-vue": "^9.32.0",
+    "globals": "^15.13.0",
+    "typescript-eslint": "^8.16.0"
   }
 }

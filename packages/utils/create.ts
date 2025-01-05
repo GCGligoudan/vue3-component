@@ -55,14 +55,14 @@ function createBEM(prefixName: string) {
   };
 }
 
-function createNamespace(name: string) {
+export function createNamespace(name: string) {
   const prefixName = `z-${name}`;
   return createBEM(prefixName);
 }
-const bem = createNamespace("button");
 
-console.log(bem.b("primary"))
-console.log(bem.e("element"))
-console.log(bem.m("modifier"))
-console.log(bem.bem('primary','element','modifier'))
-console.log('1')
+// const bem = createNamespace("button");
+// console.log(bem.b("primary"))
+// console.log(bem.e("element"))
+// console.log(bem.m("modifier"))
+// console.log(bem.bem('primary','element','modifier'))
+// console.log('1')
